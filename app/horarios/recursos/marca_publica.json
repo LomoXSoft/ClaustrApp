@@ -1,0 +1,10 @@
+{
+  "nombre": "ClaustrApp",
+  "nombre_editor": "ClaustrApp · Editor",
+  "nombre_archivo": "ClaustrApp",
+  "autor": "LomoXSoft",
+  "clave_ajustes": "ClaustrApp",
+  "descripcion": "Planificador de horarios escolares, software libre compatible con archivos XML-GHC. Proyecto independiente: no es un producto oficial ni está relacionado con los autores de otros programas de horarios.",
+  "splash": "splash_publico.png",
+  "splash_lineas": ["ClaustrApp"]
+}

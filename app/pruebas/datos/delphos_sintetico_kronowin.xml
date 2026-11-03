@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SERVICIO siscliente="SISTEMA_CLIENTE" fecha="01/09/2026 10:00:00" sisservidor="KRONOWIN" nomservicio="CONS_TRAMOS_HORARIOS">
+<ENTRADAS></ENTRADAS>
+<SALIDAS>
+<ERROR>
+<salida dato="CN_ERROR">0</salida>
+<salida dato="TE_ERROR">Servicio finalizado Correctamente</salida>
+</ERROR>
+<listasal seq="GRUPOS">
+<salida dato="REGISTROS_RECUPERADOS">4</salida>
+<listasal seq="GRUPOS_1">
+<salida dato="UNIDAD">300001</salida>
+<salida dato="ABREVIATURA">E1</salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1A</salida>
+</listasal>
+<listasal seq="GRUPOS_2">
+<salida dato="UNIDAD">300002</salida>
+<salida dato="ABREVIATURA">E1</salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1B</salida>
+</listasal>
+<listasal seq="GRUPOS_3">
+<salida dato="UNIDAD">300003</salida>
+<salida dato="ABREVIATURA">E2</salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">2º</salida>
+<salida dato="GRUPO">SINT2A</salida>
+</listasal>
+<listasal seq="GRUPOS_4">
+<salida dato="UNIDAD">300004</salida>
+<salida dato="ABREVIATURA">B1</salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">BACH</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1BC</salida>
+</listasal>
+</listasal>
+<listasal seq="MATERIAS">
+<salida dato="REGISTROS_RECUPERADOS">21</salida>
+<listasal seq="MATERIAS_1">
+<salida dato="MATERIA">4000001</salida>
+<salida dato="COD">MAT</salida>
+<salida dato="CODLARGO">MAT</salida>
+<salida dato="NOMBRE">SINT-MATEMÁTICAS</salida>
+</listasal>
+<listasal seq="MATERIAS_2">
+<salida dato="MATERIA">4000002</salida>
+<salida dato="COD">LCL</salida>
+<salida dato="CODLARGO">LCL</salida>
+<salida dato="NOMBRE">SINT-LENGUA CASTELLANA Y LITERATURA</salida>
+</listasal>
+<listasal seq="MATERIAS_3">
+<salida dato="MATERIA">4000003</salida>
+<salida dato="COD">ING</salida>
+<salida dato="CODLARGO">ING</salida>
+<salida dato="NOMBRE">SINT-INGLÉS</salida>
+</listasal>
+<listasal seq="MATERIAS_4">
+<salida dato="MATERIA">4000004</salida>
+<salida dato="COD">EF</salida>
+<salida dato="CODLARGO">EF</salida>
+<salida dato="NOMBRE">SINT-EDUCACIÓN FÍSICA</salida>
+</listasal>
+<listasal seq="MATERIAS_5">
+<salida dato="MATERIA">4000005</salida>
+<salida dato="COD">TUT</salida>
+<salida dato="CODLARGO">TUT</salida>
+<salida dato="NOMBRE">SINT-TUTORÍA</salida>
+</listasal>
+<listasal seq="MATERIAS_6">
+<salida dato="MATERIA">4000006</salida>
+<salida dato="COD">MAT</salida>
+<salida dato="CODLARGO">MAT</salida>
+<salida dato="NOMBRE">SINT-MATEMÁTICAS</salida>
+</listasal>
+<listasal seq="MATERIAS_7">
+<salida dato="MATERIA">4000007</salida>
+<salida dato="COD">LCL</salida>
+<salida dato="CODLARGO">LCL</salida>
+<salida dato="NOMBRE">SINT-LENGUA CASTELLANA Y LITERATURA</salida>
+</listasal>
+<listasal seq="MATERIAS_8">
+<salida dato="MATERIA">4000008</salida>
+<salida dato="COD">ING</salida>
+<salida dato="CODLARGO">ING</salida>
+<salida dato="NOMBRE">SINT-INGLÉS</salida>
+</listasal>
+<listasal seq="MATERIAS_9">
+<salida dato="MATERIA">4000009</salida>
+<salida dato="COD">EF</salida>
+<salida dato="CODLARGO">EF</salida>
+<salida dato="NOMBRE">SINT-EDUCACIÓN FÍSICA</salida>
+</listasal>
+<listasal seq="MATERIAS_10">
+<salida dato="MATERIA">4000010</salida>
+<salida dato="COD">TUT</salida>
+<salida dato="CODLARGO">TUT</salida>
+<salida dato="NOMBRE">SINT-TUTORÍA</salida>
+</listasal>
+<listasal seq="MATERIAS_11">
+<salida dato="MATERIA">4000011</salida>
+<salida dato="COD">MAT</salida>
+<salida dato="CODLARGO">MAT</salida>
+<salida dato="NOMBRE">SINT-MATEMÁTICAS</salida>
+</listasal>
+<listasal seq="MATERIAS_12">
+<salida dato="MATERIA">4000012</salida>
+<salida dato="COD">LCL</salida>
+<salida dato="CODLARGO">LCL</salida>
+<salida dato="NOMBRE">SINT-LENGUA CASTELLANA Y LITERATURA</salida>
+</listasal>
+<listasal seq="MATERIAS_13">
+<salida dato="MATERIA">4000013</salida>
+<salida dato="COD">ING</salida>
+<salida dato="CODLARGO">ING</salida>
+<salida dato="NOMBRE">SINT-INGLÉS</salida>
+</listasal>
+<listasal seq="MATERIAS_14">
+<salida dato="MATERIA">4000014</salida>
+<salida dato="COD">EF</salida>
+<salida dato="CODLARGO">EF</salida>
+<salida dato="NOMBRE">SINT-EDUCACIÓN FÍSICA</salida>
+</listasal>
+<listasal seq="MATERIAS_15">
+<salida dato="MATERIA">4000015</salida>
+<salida dato="COD">TUT</salida>
+<salida dato="CODLARGO">TUT</salida>
+<salida dato="NOMBRE">SINT-TUTORÍA</salida>
+</listasal>
+<listasal seq="MATERIAS_16">
+<salida dato="MATERIA">4000099</salida>
+<salida dato="COD">FQ</salida>
+<salida dato="CODLARGO">FQ</salida>
+<salida dato="NOMBRE">SINT-FÍSICA Y QUÍMICA</salida>
+</listasal>
+<listasal seq="MATERIAS_17">
+<salida dato="MATERIA">G501</salida>
+<salida dato="COD">GUA</salida>
+<salida dato="CODLARGO">GUA</salida>
+<salida dato="NOMBRE">SINT-GUARDIA</salida>
+</listasal>
+<listasal seq="MATERIAS_18">
+<salida dato="MATERIA">G502</salida>
+<salida dato="COD">GREC</salida>
+<salida dato="CODLARGO">GREC</salida>
+<salida dato="NOMBRE">SINT-GUARDIA DE RECREO</salida>
+</listasal>
+<listasal seq="MATERIAS_19">
+<salida dato="MATERIA">G503</salida>
+<salida dato="COD">JD</salida>
+<salida dato="CODLARGO">JD</salida>
+<salida dato="NOMBRE">SINT-JEFATURA DE DEPARTAMENTO</salida>
+</listasal>
+<listasal seq="MATERIAS_20">
+<salida dato="MATERIA">G504</salida>
+<salida dato="COD">RD</salida>
+<salida dato="CODLARGO">RD</salida>
+<salida dato="NOMBRE">SINT-REUNIÓN DE DEPARTAMENTO</salida>
+</listasal>
+<listasal seq="MATERIAS_21">
+<salida dato="MATERIA">G1505</salida>
+<salida dato="COD">BIB</salida>
+<salida dato="CODLARGO">BIB</salida>
+<salida dato="NOMBRE">SINT-ATENCIÓN A BIBLIOTECA</salida>
+</listasal>
+</listasal>
+<listasal seq="PROFESORES">
+<salida dato="REGISTROS_RECUPERADOS">8</salida>
+<listasal seq="PROFESORES_1">
+<salida dato="X_EMPLEADO">9001</salida>
+<salida dato="F_TOMAPOS">01/09/2015</salida>
+<salida dato="NOMBRE">SINT-PROF-001, Docente</salida>
+<salida dato="T_ABREV">S001</salida>
+</listasal>
+<listasal seq="PROFESORES_2">
+<salida dato="X_EMPLEADO">9002</salida>
+<salida dato="F_TOMAPOS">01/09/2016</salida>
+<salida dato="NOMBRE">SINT-PROF-002, Docente</salida>
+<salida dato="T_ABREV">S002</salida>
+</listasal>
+<listasal seq="PROFESORES_3">
+<salida dato="X_EMPLEADO">9003</salida>
+<salida dato="F_TOMAPOS">01/09/2017</salida>
+<salida dato="NOMBRE">SINT-PROF-003, Docente</salida>
+<salida dato="T_ABREV">S003</salida>
+</listasal>
+<listasal seq="PROFESORES_4">
+<salida dato="X_EMPLEADO">9004</salida>
+<salida dato="F_TOMAPOS">01/09/2018</salida>
+<salida dato="NOMBRE">SINT-PROF-004, Docente</salida>
+<salida dato="T_ABREV">S004</salida>
+</listasal>
+<listasal seq="PROFESORES_5">
+<salida dato="X_EMPLEADO">9005</salida>
+<salida dato="F_TOMAPOS">01/09/2019</salida>
+<salida dato="NOMBRE">SINT-PROF-005, Docente</salida>
+<salida dato="T_ABREV">S005</salida>
+</listasal>
+<listasal seq="PROFESORES_6">
+<salida dato="X_EMPLEADO">9006</salida>
+<salida dato="F_TOMAPOS">01/09/2020</salida>
+<salida dato="NOMBRE">SINT-PROF-006, Docente</salida>
+<salida dato="T_ABREV">S006</salida>
+</listasal>
+<listasal seq="PROFESORES_7">
+<salida dato="X_EMPLEADO">9007</salida>
+<salida dato="F_TOMAPOS">01/09/2021</salida>
+<salida dato="NOMBRE">SINT-PROF-007, Docente</salida>
+<salida dato="T_ABREV">S007</salida>
+</listasal>
+<listasal seq="PROFESORES_8">
+<salida dato="X_EMPLEADO">9008</salida>
+<salida dato="F_TOMAPOS">01/09/2022</salida>
+<salida dato="NOMBRE">SINT-PROF-008, Docente</salida>
+<salida dato="T_ABREV">S008</salida>
+</listasal>
+</listasal>
+<listasal seq="AULAS">
+<salida dato="REGISTROS_RECUPERADOS">5</salida>
+<listasal seq="AULAS_1">
+<salida dato="DEPCENTRO">70001</salida>
+<salida dato="ABREV">SINT A-01</salida>
+<salida dato="NOMBRE">SINT-Aula 01</salida>
+<salida dato="EDIFICIO">1</salida>
+</listasal>
+<listasal seq="AULAS_2">
+<salida dato="DEPCENTRO">70002</salida>
+<salida dato="ABREV">SINT A-02</salida>
+<salida dato="NOMBRE">SINT-Aula 02</salida>
+<salida dato="EDIFICIO">1</salida>
+</listasal>
+<listasal seq="AULAS_3">
+<salida dato="DEPCENTRO">70003</salida>
+<salida dato="ABREV">SINT LAB</salida>
+<salida dato="NOMBRE">SINT-Laboratorio</salida>
+<salida dato="EDIFICIO">2</salida>
+</listasal>
+<listasal seq="AULAS_4">
+<salida dato="DEPCENTRO">70004</salida>
+<salida dato="ABREV">SINT GIM</salida>
+<salida dato="NOMBRE">SINT-Gimnasio</salida>
+<salida dato="EDIFICIO">3</salida>
+</listasal>
+<listasal seq="AULAS_5">
+<salida dato="DEPCENTRO">70005</salida>
+<salida dato="ABREV">SINT BIB</salida>
+<salida dato="NOMBRE">SINT-Biblioteca</salida>
+<salida dato="EDIFICIO">1</salida>
+</listasal>
+</listasal>
+<listasal seq="ASIGNATURAS">
+<salida dato="REGISTROS_RECUPERADOS">20</salida>
+<listasal seq="ASIGNATURAS_1">
+<salida dato="CASIG">MAT</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1A</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000001</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_2">
+<salida dato="CASIG">LCL</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1A</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000002</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_3">
+<salida dato="CASIG">ING</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1A</salida>
+<salida dato="N_HORAS">180</salida>
+<salida dato="MATERIA">4000003</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_4">
+<salida dato="CASIG">EF</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1A</salida>
+<salida dato="N_HORAS">120</salida>
+<salida dato="MATERIA">4000004</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_5">
+<salida dato="CASIG">TUT</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1A</salida>
+<salida dato="N_HORAS">60</salida>
+<salida dato="MATERIA">4000005</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_6">
+<salida dato="CASIG">MAT</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1B</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000001</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_7">
+<salida dato="CASIG">LCL</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1B</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000002</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_8">
+<salida dato="CASIG">ING</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1B</salida>
+<salida dato="N_HORAS">180</salida>
+<salida dato="MATERIA">4000003</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_9">
+<salida dato="CASIG">EF</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1B</salida>
+<salida dato="N_HORAS">120</salida>
+<salida dato="MATERIA">4000004</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_10">
+<salida dato="CASIG">TUT</salida>
+<salida dato="CGRUP">E1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1B</salida>
+<salida dato="N_HORAS">60</salida>
+<salida dato="MATERIA">4000005</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_11">
+<salida dato="CASIG">MAT</salida>
+<salida dato="CGRUP">E2</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">2º</salida>
+<salida dato="GRUPO">SINT2A</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000006</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_12">
+<salida dato="CASIG">LCL</salida>
+<salida dato="CGRUP">E2</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">2º</salida>
+<salida dato="GRUPO">SINT2A</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000007</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_13">
+<salida dato="CASIG">ING</salida>
+<salida dato="CGRUP">E2</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">2º</salida>
+<salida dato="GRUPO">SINT2A</salida>
+<salida dato="N_HORAS">180</salida>
+<salida dato="MATERIA">4000008</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_14">
+<salida dato="CASIG">EF</salida>
+<salida dato="CGRUP">E2</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">2º</salida>
+<salida dato="GRUPO">SINT2A</salida>
+<salida dato="N_HORAS">120</salida>
+<salida dato="MATERIA">4000009</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_15">
+<salida dato="CASIG">TUT</salida>
+<salida dato="CGRUP">E2</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">ESO</salida>
+<salida dato="CURSO">2º</salida>
+<salida dato="GRUPO">SINT2A</salida>
+<salida dato="N_HORAS">60</salida>
+<salida dato="MATERIA">4000010</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_16">
+<salida dato="CASIG">MAT</salida>
+<salida dato="CGRUP">B1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">BACH</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1BC</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000011</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_17">
+<salida dato="CASIG">LCL</salida>
+<salida dato="CGRUP">B1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">BACH</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1BC</salida>
+<salida dato="N_HORAS">240</salida>
+<salida dato="MATERIA">4000012</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_18">
+<salida dato="CASIG">ING</salida>
+<salida dato="CGRUP">B1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">BACH</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1BC</salida>
+<salida dato="N_HORAS">180</salida>
+<salida dato="MATERIA">4000013</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_19">
+<salida dato="CASIG">EF</salida>
+<salida dato="CGRUP">B1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">BACH</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1BC</salida>
+<salida dato="N_HORAS">120</salida>
+<salida dato="MATERIA">4000014</salida>
+</listasal>
+<listasal seq="ASIGNATURAS_20">
+<salida dato="CASIG">TUT</salida>
+<salida dato="CGRUP">B1</salida>
+<salida dato="CAULA"></salida>
+<salida dato="TURNO">D</salida>
+<salida dato="NIVEL">BACH</salida>
+<salida dato="CURSO">1º</salida>
+<salida dato="GRUPO">SINT1BC</salida>
+<salida dato="N_HORAS"></salida>
+<salida dato="MATERIA">4000015</salida>
+</listasal>
+</listasal>
+<listasal seq="TRAMOS">
+<salida dato="REGISTROS_RECUPERADOS">30</salida>
+<listasal seq="TRAMOS_1">
+<salida dato="CODIGO_DELPHOS">600001</salida>
+<salida dato="DIA">L1</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_2">
+<salida dato="CODIGO_DELPHOS">600002</salida>
+<salida dato="DIA">L2</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_3">
+<salida dato="CODIGO_DELPHOS">600003</salida>
+<salida dato="DIA">L3</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_4">
+<salida dato="CODIGO_DELPHOS">600004</salida>
+<salida dato="DIA">L4</salida>
+<salida dato="MINUTOS">30</salida>
+</listasal>
+<listasal seq="TRAMOS_5">
+<salida dato="CODIGO_DELPHOS">600005</salida>
+<salida dato="DIA">L5</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_6">
+<salida dato="CODIGO_DELPHOS">600006</salida>
+<salida dato="DIA">L6</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_7">
+<salida dato="CODIGO_DELPHOS">600001</salida>
+<salida dato="DIA">M1</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_8">
+<salida dato="CODIGO_DELPHOS">600002</salida>
+<salida dato="DIA">M2</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_9">
+<salida dato="CODIGO_DELPHOS">600003</salida>
+<salida dato="DIA">M3</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_10">
+<salida dato="CODIGO_DELPHOS">600004</salida>
+<salida dato="DIA">M4</salida>
+<salida dato="MINUTOS">30</salida>
+</listasal>
+<listasal seq="TRAMOS_11">
+<salida dato="CODIGO_DELPHOS">600005</salida>
+<salida dato="DIA">M5</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_12">
+<salida dato="CODIGO_DELPHOS">600006</salida>
+<salida dato="DIA">M6</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_13">
+<salida dato="CODIGO_DELPHOS">600001</salida>
+<salida dato="DIA">X1</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_14">
+<salida dato="CODIGO_DELPHOS">600002</salida>
+<salida dato="DIA">X2</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_15">
+<salida dato="CODIGO_DELPHOS">600003</salida>
+<salida dato="DIA">X3</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_16">
+<salida dato="CODIGO_DELPHOS">600004</salida>
+<salida dato="DIA">X4</salida>
+<salida dato="MINUTOS">30</salida>
+</listasal>
+<listasal seq="TRAMOS_17">
+<salida dato="CODIGO_DELPHOS">600005</salida>
+<salida dato="DIA">X5</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_18">
+<salida dato="CODIGO_DELPHOS">600006</salida>
+<salida dato="DIA">X6</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_19">
+<salida dato="CODIGO_DELPHOS">600001</salida>
+<salida dato="DIA">J1</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_20">
+<salida dato="CODIGO_DELPHOS">600002</salida>
+<salida dato="DIA">J2</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_21">
+<salida dato="CODIGO_DELPHOS">600003</salida>
+<salida dato="DIA">J3</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_22">
+<salida dato="CODIGO_DELPHOS">600004</salida>
+<salida dato="DIA">J4</salida>
+<salida dato="MINUTOS">30</salida>
+</listasal>
+<listasal seq="TRAMOS_23">
+<salida dato="CODIGO_DELPHOS">600005</salida>
+<salida dato="DIA">J5</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_24">
+<salida dato="CODIGO_DELPHOS">600006</salida>
+<salida dato="DIA">J6</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_25">
+<salida dato="CODIGO_DELPHOS">600001</salida>
+<salida dato="DIA">V1</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_26">
+<salida dato="CODIGO_DELPHOS">600002</salida>
+<salida dato="DIA">V2</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_27">
+<salida dato="CODIGO_DELPHOS">600003</salida>
+<salida dato="DIA">V3</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_28">
+<salida dato="CODIGO_DELPHOS">600004</salida>
+<salida dato="DIA">V4</salida>
+<salida dato="MINUTOS">30</salida>
+</listasal>
+<listasal seq="TRAMOS_29">
+<salida dato="CODIGO_DELPHOS">600005</salida>
+<salida dato="DIA">V5</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+<listasal seq="TRAMOS_30">
+<salida dato="CODIGO_DELPHOS">600006</salida>
+<salida dato="DIA">V6</salida>
+<salida dato="MINUTOS">55</salida>
+</listasal>
+</listasal>
+</SALIDAS>
+</SERVICIO>

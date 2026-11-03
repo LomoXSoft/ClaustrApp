@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+venv/
+build_win/build/
+build_win/dist/
+build_win/venv_win/
+build_win/version_info_gen.txt
+app/capturas/

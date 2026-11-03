@@ -1,0 +1,57 @@
+CLAUSTRAPP 0.0.2 - VERSIÓN DE PRUEBAS
+LomoXSoft
+=============================================
+
+AVISO: esta es una versión de pruebas (0.0.2). Puede contener errores y algunas
+opciones del menú aparecen como «Próximamente». Trabaje siempre con copias de sus
+archivos. El programa no sobrescribe nunca el archivo .xghc original: al guardar
+propone una copia con sufijo.
+
+REQUISITOS
+- Windows 10 o Windows 11 de 64 bits.
+- 4 GB de RAM como mínimo (8 GB recomendados para centros grandes).
+- Unos 400 MB libres en disco.
+- No hace falta instalar Python ni ninguna otra cosa: todo va incluido.
+
+CÓMO ARRANCAR
+1. Descomprima el .zip completo en una carpeta (por ejemplo, C:\ClaustrApp).
+   No ejecute el programa desde dentro del .zip.
+2. Entre en la carpeta ClaustrApp y haga doble clic en ClaustrApp.exe.
+3. Windows SmartScreen puede avisar de que el programa no está firmado:
+   pulse «Más información» y después «Ejecutar de todas formas».
+4. También puede arrastrar un archivo .xghc (o un resultado .lphr) sobre
+   ClaustrApp.exe para abrirlo directamente.
+
+ARCHIVOS DE EJEMPLO (carpeta «ejemplos»)
+Datos completamente inventados (prefijo SINT), sin relación con ningún centro real:
+- SINT_instituto.xghc : configuración de un instituto ficticio (85 profesores,
+  33 grupos, 335 sesiones).
+- SINT_instituto.lphr : un horario ya generado para ese archivo; ábralo para ir
+  directamente al editor de horarios e informes.
+
+PRIMER USO SUGERIDO
+1. Archivo > Abrir > ejemplos\SINT_instituto.xghc
+2. Revise las listas (profesores, grupos, sesiones...) y el panel de validación.
+3. Pulse Generar horario (botón Play). El motor trabaja en un proceso aparte;
+   con el ejemplo tarda alrededor de un minuto.
+4. Abra el resultado en el editor, revise y genere informes en PDF.
+5. Archivo > Nuevo crea un archivo vacío con un asistente (perfil y periodos).
+
+COMPROBACIÓN RÁPIDA (opcional, para soporte)
+Desde una ventana de comandos en la carpeta del programa:
+  ClaustrApp.exe --autoprueba ejemplos\SINT_instituto.xghc %TEMP%\lph_prueba 60
+Deja en %TEMP%\lph_prueba el archivo autoprueba.txt, el resultado y un PDF.
+
+LIMITACIONES CONOCIDAS DE ESTA VERSIÓN
+- Algunas opciones secundarias aparecen como «Próximamente» (ayuda F1, leer
+  listado CSV, pegar, exportar a otros formatos, paleta de colores, etc.).
+- La exportación a DELPHOS es provisional: el formato no está confirmado.
+- La exportación .xrho no está disponible.
+- La configuración del programa se guarda en el registro de Windows del usuario.
+
+Para cualquier incidencia, indique la versión (0.0.2) y adjunte autoprueba.txt.
+
+VERSIÓN SENCILLA (novedad de 0.0.2)
+Al arrancar puede elegir entre la versión sencilla (paso a paso) y la clásica.
+Marque «Recordar mi elección» para no volver a preguntar; se cambia en Ver > Versión.
+También: ClaustrApp.exe --sencilla  o  --clasica

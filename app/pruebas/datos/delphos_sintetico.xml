@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<SERVICIO siscliente="SISTEMA_CLIENTE" fecha="01/09/2026 10:00:00" sisservidor="PEÑALARA" nomservicio="CONS_TRAMOS_HORARIOS">
+<ENTRADAS></ENTRADAS>
+<SALIDAS>
+<ERROR>
+<salida dato="CN_ERROR">0</salida>
+<salida dato="TE_ERROR">Servicio finalizado Correctamente</salida>
+</ERROR>
+<listasal seq="GRUPOS">
+<salida dato="REGISTROS_RECUPERADOS">4</salida>
+<listasal seq="GRUPOS_1">
+<salida dato="CLAVE">300001</salida>
+<salida dato="NOMBRE">SINT1A</salida>
+<salida dato="CODIGO_CURSO">100101</salida>
+</listasal>
+<listasal seq="GRUPOS_2">
+<salida dato="CLAVE">300002</salida>
+<salida dato="NOMBRE">SINT1B</salida>
+<salida dato="CODIGO_CURSO">100101</salida>
+</listasal>
+<listasal seq="GRUPOS_3">
+<salida dato="CLAVE">300003</salida>
+<salida dato="NOMBRE">SINT2A</salida>
+<salida dato="CODIGO_CURSO">100102</salida>
+</listasal>
+<listasal seq="GRUPOS_4">
+<salida dato="CLAVE">300004</salida>
+<salida dato="NOMBRE">SINT1BC</salida>
+<salida dato="CODIGO_CURSO">100103</salida>
+</listasal>
+</listasal>
+<listasal seq="MATERIAS">
+<salida dato="REGISTROS_RECUPERADOS">16</salida>
+<listasal seq="MATERIAS_1">
+<salida dato="NOMBRE">SINT-Matemáticas</salida>
+<salida dato="CLAVE">4000001</salida>
+<salida dato="ABREVIATURA">MAT</salida>
+<salida dato="CODIGO_CURSO">100101</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1ESO</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Matemáticas</salida>
+</listasal>
+<listasal seq="MATERIAS_2">
+<salida dato="NOMBRE">SINT-Lengua Castellana y Literatura</salida>
+<salida dato="CLAVE">4000002</salida>
+<salida dato="ABREVIATURA">LCL</salida>
+<salida dato="CODIGO_CURSO">100101</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1ESO</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Lengua</salida>
+</listasal>
+<listasal seq="MATERIAS_3">
+<salida dato="NOMBRE">SINT-Inglés</salida>
+<salida dato="CLAVE">4000003</salida>
+<salida dato="ABREVIATURA">ING</salida>
+<salida dato="CODIGO_CURSO">100101</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1ESO</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Inglés</salida>
+</listasal>
+<listasal seq="MATERIAS_4">
+<salida dato="NOMBRE">SINT-Educación Física</salida>
+<salida dato="CLAVE">4000004</salida>
+<salida dato="ABREVIATURA">EF</salida>
+<salida dato="CODIGO_CURSO">100101</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1ESO</salida>
+<salida dato="DEPARTAMENTO"></salida>
+</listasal>
+<listasal seq="MATERIAS_5">
+<salida dato="NOMBRE">SINT-Tutoría</salida>
+<salida dato="CLAVE">4000005</salida>
+<salida dato="ABREVIATURA">TUT</salida>
+<salida dato="CODIGO_CURSO">100101</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1ESO</salida>
+<salida dato="DEPARTAMENTO"></salida>
+</listasal>
+<listasal seq="MATERIAS_6">
+<salida dato="NOMBRE">SINT-Matemáticas</salida>
+<salida dato="CLAVE">4000006</salida>
+<salida dato="ABREVIATURA">MAT</salida>
+<salida dato="CODIGO_CURSO">100102</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-2º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-2ESO</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Matemáticas</salida>
+</listasal>
+<listasal seq="MATERIAS_7">
+<salida dato="NOMBRE">SINT-Lengua Castellana y Literatura</salida>
+<salida dato="CLAVE">4000007</salida>
+<salida dato="ABREVIATURA">LCL</salida>
+<salida dato="CODIGO_CURSO">100102</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-2º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-2ESO</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Lengua</salida>
+</listasal>
+<listasal seq="MATERIAS_8">
+<salida dato="NOMBRE">SINT-Inglés</salida>
+<salida dato="CLAVE">4000008</salida>
+<salida dato="ABREVIATURA">ING</salida>
+<salida dato="CODIGO_CURSO">100102</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-2º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-2ESO</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Inglés</salida>
+</listasal>
+<listasal seq="MATERIAS_9">
+<salida dato="NOMBRE">SINT-Educación Física</salida>
+<salida dato="CLAVE">4000009</salida>
+<salida dato="ABREVIATURA">EF</salida>
+<salida dato="CODIGO_CURSO">100102</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-2º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-2ESO</salida>
+<salida dato="DEPARTAMENTO"></salida>
+</listasal>
+<listasal seq="MATERIAS_10">
+<salida dato="NOMBRE">SINT-Tutoría</salida>
+<salida dato="CLAVE">4000010</salida>
+<salida dato="ABREVIATURA">TUT</salida>
+<salida dato="CODIGO_CURSO">100102</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-2º Educación Secundaria Obligatoria</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-2ESO</salida>
+<salida dato="DEPARTAMENTO"></salida>
+</listasal>
+<listasal seq="MATERIAS_11">
+<salida dato="NOMBRE">SINT-Matemáticas</salida>
+<salida dato="CLAVE">4000011</salida>
+<salida dato="ABREVIATURA">MAT</salida>
+<salida dato="CODIGO_CURSO">100103</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Bachillerato de Ciencias</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1BAC</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Matemáticas</salida>
+</listasal>
+<listasal seq="MATERIAS_12">
+<salida dato="NOMBRE">SINT-Lengua Castellana y Literatura</salida>
+<salida dato="CLAVE">4000012</salida>
+<salida dato="ABREVIATURA">LCL</salida>
+<salida dato="CODIGO_CURSO">100103</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Bachillerato de Ciencias</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1BAC</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Lengua</salida>
+</listasal>
+<listasal seq="MATERIAS_13">
+<salida dato="NOMBRE">SINT-Inglés</salida>
+<salida dato="CLAVE">4000013</salida>
+<salida dato="ABREVIATURA">ING</salida>
+<salida dato="CODIGO_CURSO">100103</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Bachillerato de Ciencias</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1BAC</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Inglés</salida>
+</listasal>
+<listasal seq="MATERIAS_14">
+<salida dato="NOMBRE">SINT-Educación Física</salida>
+<salida dato="CLAVE">4000014</salida>
+<salida dato="ABREVIATURA">EF</salida>
+<salida dato="CODIGO_CURSO">100103</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Bachillerato de Ciencias</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1BAC</salida>
+<salida dato="DEPARTAMENTO"></salida>
+</listasal>
+<listasal seq="MATERIAS_15">
+<salida dato="NOMBRE">SINT-Tutoría</salida>
+<salida dato="CLAVE">4000015</salida>
+<salida dato="ABREVIATURA">TUT</salida>
+<salida dato="CODIGO_CURSO">100103</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-1º Bachillerato de Ciencias</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-1BAC</salida>
+<salida dato="DEPARTAMENTO"></salida>
+</listasal>
+<listasal seq="MATERIAS_16">
+<salida dato="NOMBRE">SINT-Física y Química</salida>
+<salida dato="CLAVE">4000099</salida>
+<salida dato="ABREVIATURA">FQ</salida>
+<salida dato="CODIGO_CURSO">1001</salida>
+<salida dato="DESCRIPCION_CURSO">SINT-Curso sin grupos (oferta)</salida>
+<salida dato="ABREVIATURA_CURSO">SINT-COMPAT</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Ciencias</salida>
+</listasal>
+</listasal>
+<listasal seq="PROFESORES">
+<salida dato="REGISTROS_RECUPERADOS">8</salida>
+<listasal seq="PROFESORES_1">
+<salida dato="CLAVE">9001</salida>
+<salida dato="F_TOMA_POSESION">01/09/2015</salida>
+<salida dato="NOMBRE">SINT-PROF-001, Docente</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Matemáticas</salida>
+</listasal>
+<listasal seq="PROFESORES_2">
+<salida dato="CLAVE">9002</salida>
+<salida dato="F_TOMA_POSESION">01/09/2016</salida>
+<salida dato="NOMBRE">SINT-PROF-002, Docente</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Lengua</salida>
+</listasal>
+<listasal seq="PROFESORES_3">
+<salida dato="CLAVE">9003</salida>
+<salida dato="F_TOMA_POSESION">01/09/2017</salida>
+<salida dato="NOMBRE">SINT-PROF-003, Docente</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Inglés</salida>
+</listasal>
+<listasal seq="PROFESORES_4">
+<salida dato="CLAVE">9004</salida>
+<salida dato="F_TOMA_POSESION">01/09/2018</salida>
+<salida dato="NOMBRE">SINT-PROF-004, Docente</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Matemáticas</salida>
+</listasal>
+<listasal seq="PROFESORES_5">
+<salida dato="CLAVE">9005</salida>
+<salida dato="F_TOMA_POSESION">01/09/2019</salida>
+<salida dato="NOMBRE">SINT-PROF-005, Docente</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Lengua</salida>
+</listasal>
+<listasal seq="PROFESORES_6">
+<salida dato="CLAVE">9006</salida>
+<salida dato="F_TOMA_POSESION">01/09/2020</salida>
+<salida dato="NOMBRE">SINT-PROF-006, Docente</salida>
+<salida dato="DEPARTAMENTO"></salida>
+</listasal>
+<listasal seq="PROFESORES_7">
+<salida dato="CLAVE">9007</salida>
+<salida dato="F_TOMA_POSESION">01/09/2021</salida>
+<salida dato="NOMBRE">SINT-PROF-007, Docente</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Matemáticas</salida>
+</listasal>
+<listasal seq="PROFESORES_8">
+<salida dato="CLAVE">9008</salida>
+<salida dato="F_TOMA_POSESION">01/09/2022</salida>
+<salida dato="NOMBRE">SINT-PROF-008, Docente</salida>
+<salida dato="DEPARTAMENTO">SINT-Departamento de Lengua</salida>
+</listasal>
+</listasal>
+<listasal seq="AULAS">
+<salida dato="REGISTROS_RECUPERADOS">5</salida>
+<listasal seq="AULAS_1">
+<salida dato="CLAVE">70001</salida>
+<salida dato="IDENTIFICACION">SINT A-01</salida>
+</listasal>
+<listasal seq="AULAS_2">
+<salida dato="CLAVE">70002</salida>
+<salida dato="IDENTIFICACION">SINT A-02</salida>
+</listasal>
+<listasal seq="AULAS_3">
+<salida dato="CLAVE">70003</salida>
+<salida dato="IDENTIFICACION">SINT LAB</salida>
+</listasal>
+<listasal seq="AULAS_4">
+<salida dato="CLAVE">70004</salida>
+<salida dato="IDENTIFICACION">SINT GIM</salida>
+</listasal>
+<listasal seq="AULAS_5">
+<salida dato="CLAVE">70005</salida>
+<salida dato="IDENTIFICACION">SINT BIB</salida>
+</listasal>
+</listasal>
+<listasal seq="TAREAS">
+<salida dato="REGISTROS_RECUPERADOS">5</salida>
+<listasal seq="TAREAS_1">
+<salida dato="CODIGO_DELPHOS">501</salida>
+<salida dato="CLAVE">GUA</salida>
+<salida dato="NOMBRE">SINT-Guardia</salida>
+</listasal>
+<listasal seq="TAREAS_2">
+<salida dato="CODIGO_DELPHOS">502</salida>
+<salida dato="CLAVE">GREC</salida>
+<salida dato="NOMBRE">SINT-Guardia de recreo</salida>
+</listasal>
+<listasal seq="TAREAS_3">
+<salida dato="CODIGO_DELPHOS">503</salida>
+<salida dato="CLAVE">JD</salida>
+<salida dato="NOMBRE">SINT-Jefatura de departamento</salida>
+</listasal>
+<listasal seq="TAREAS_4">
+<salida dato="CODIGO_DELPHOS">504</salida>
+<salida dato="CLAVE">RD</salida>
+<salida dato="NOMBRE">SINT-Reunión de departamento</salida>
+</listasal>
+<listasal seq="TAREAS_5">
+<salida dato="CODIGO_DELPHOS">1505</salida>
+<salida dato="CLAVE">BIB</salida>
+<salida dato="NOMBRE">SINT-Atención a biblioteca</salida>
+</listasal>
+</listasal>
+<listasal seq="INTERVALOS">
+<salida dato="REGISTROS_RECUPERADOS">6</salida>
+<listasal seq="INTERVALOS_1">
+<salida dato="CODIGO_DELPHOS">600003</salida>
+<salida dato="INICIO">10:15</salida>
+<salida dato="FIN">11:10</salida>
+</listasal>
+<listasal seq="INTERVALOS_2">
+<salida dato="CODIGO_DELPHOS">600001</salida>
+<salida dato="INICIO">8:25</salida>
+<salida dato="FIN">9:20</salida>
+</listasal>
+<listasal seq="INTERVALOS_3">
+<salida dato="CODIGO_DELPHOS">600002</salida>
+<salida dato="INICIO">9:20</salida>
+<salida dato="FIN">10:15</salida>
+</listasal>
+<listasal seq="INTERVALOS_4">
+<salida dato="CODIGO_DELPHOS">600004</salida>
+<salida dato="INICIO">11:10</salida>
+<salida dato="FIN">11:40</salida>
+</listasal>
+<listasal seq="INTERVALOS_5">
+<salida dato="CODIGO_DELPHOS">600005</salida>
+<salida dato="INICIO">11:40</salida>
+<salida dato="FIN">12:35</salida>
+</listasal>
+<listasal seq="INTERVALOS_6">
+<salida dato="CODIGO_DELPHOS">600006</salida>
+<salida dato="INICIO">12:35</salida>
+<salida dato="FIN">13:30</salida>
+</listasal>
+</listasal>
+</SALIDAS>
+</SERVICIO>
