@@ -53,11 +53,19 @@ Capturas (con datos inventados, prefijo `SINT`) en [`capturas/`](capturas/):
 
 ## Instalar y actualizar
 
-El ejecutable de Windows **llegará pronto** en [Releases](https://github.com/LomoXSoft/ClaustrApp/releases/latest).
-Será una carpeta portable: se descomprime y se abre `ClaustrApp.exe`, sin instalar nada. Para actualizar bastará con
-sustituir la carpeta; sus archivos `.xghc` y `.lphr` no se tocan.
+1. Descargue de la [última versión publicada](https://github.com/LomoXSoft/ClaustrApp/releases/latest) el instalador
+   `ClaustrApp-Setup-<versión>.exe` o, si prefiere no instalar nada, el zip portable `ClaustrApp-<versión>-win64.zip`.
+   Si quiere, compruebe su SHA-256, que figura en las notas de la versión: `Get-FileHash .\ClaustrApp-Setup-0.0.3.exe`
+   en PowerShell.
+2. **Instalador**: ejecútelo. Se instala en `C:\Program Files\ClaustrApp` y crea accesos directos en el menú Inicio y, si
+   lo elige, en el escritorio. **Zip portable**: descomprímalo completo en una carpeta y abra `ClaustrApp\ClaustrApp.exe`.
+3. El programa no está firmado digitalmente, así que Windows SmartScreen puede avisar: «Más información» →
+   «Ejecutar de todas formas».
+4. **Actualizar**: ejecute el instalador de la versión nueva encima de la anterior (o sustituya la carpeta del zip).
+   Sus archivos `.xghc` y `.lphr` no se tocan.
+5. **Desinstalar**: desde *Configuración → Aplicaciones*. Sus archivos de datos se conservan.
 
-Mientras tanto, puede [ejecutarlo desde el código](#ejecutar-desde-el-código-desarrollo).
+Si todavía no hay ejecutable para la versión que le interesa, puede [ejecutarlo desde el código](#ejecutar-desde-el-código-desarrollo).
 
 ## Datos y copias de seguridad
 
@@ -91,16 +99,23 @@ todos los diálogos buscando textos vacíos o sin traducir.
 
 ## Construir el instalador (Windows)
 
-En un PC con Windows y Python de 64 bits:
+En un PC con Windows 10/11 de 64 bits, con [Python 3.12 de 64 bits](https://www.python.org/downloads/windows/) y,
+opcionalmente, [Inno Setup 6](https://jrsoftware.org/isinfo.php) para el instalador:
 
 ```bat
 cd build_win
 construir_windows.bat
 ```
 
-El script crea un entorno aislado, instala `requisitos_windows.txt`, construye con PyInstaller (`horarios.spec`) y deja
-la carpeta portable en `build_win\dist\ClaustrApp`. Después ejecuta una autoprueba (`ClaustrApp.exe --autoprueba …`)
-que calcula un horario de ejemplo. Las instrucciones para el usuario final están en `build_win/LEEME.txt`.
+El script crea un entorno aislado (`venv_win`) con las versiones fijadas en `requisitos_windows.txt`, construye con
+PyInstaller (`horarios.spec`), ejecuta una autoprueba (`ClaustrApp.exe --autoprueba …`) que calcula el horario del
+ejemplo inventado, y deja en `build_win\salida`:
+- `ClaustrApp-<versión>-win64.zip` (carpeta portable con `LEEME.txt` y los ejemplos);
+- `ClaustrApp-Setup-<versión>.exe`, si Inno Setup 6 está instalado (`build_win/instalador.iss`);
+- `SHA256.txt` con la huella de cada archivo.
+
+La versión sale de un único sitio: `app/horarios/__init__.py`. Las instrucciones para el usuario final están en
+`build_win/LEEME.txt`.
 
 ## Estructura
 
@@ -111,7 +126,7 @@ app/horarios/            programa (PySide6)
   recursos/              textos de la interfaz, marca, iconos y plantilla de archivo nuevo
 app/pruebas/             pruebas de regresión y datos inventados
 app/make_assets.py       genera iconos y pantalla de inicio
-build_win/               construcción del ejecutable de Windows
+build_win/               construcción del ejecutable y del instalador de Windows
 ejemplos/                instituto inventado para probar
 docs/MANUAL.md           guía rápida de uso
 capturas/                capturas con datos inventados
@@ -120,7 +135,7 @@ capturas/                capturas con datos inventados
 ## Limitaciones y planes
 
 - Versión temprana: algunas opciones de menú aparecen como «Próximamente».
-- El ejecutable de Windows aún no está publicado; de momento se ejecuta desde el código.
+- El ejecutable solo se ha probado en Windows 10/11 de 64 bits; no está firmado digitalmente.
 - La exportación a DELPHOS está probada con datos de ejemplo; revise el resultado antes de usarlo en el centro.
 - Centros muy grandes pueden necesitar varios minutos de cálculo para un horario de buena calidad.
 

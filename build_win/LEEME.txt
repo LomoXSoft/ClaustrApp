@@ -1,8 +1,8 @@
-CLAUSTRAPP 0.0.2 - VERSIÓN DE PRUEBAS
+CLAUSTRAPP 0.0.3 - VERSIÓN DE PRUEBAS
 LomoXSoft
 =============================================
 
-AVISO: esta es una versión de pruebas (0.0.2). Puede contener errores y algunas
+AVISO: esta es una versión de pruebas (0.0.3). Puede contener errores y algunas
 opciones del menú aparecen como «Próximamente». Trabaje siempre con copias de sus
 archivos. El programa no sobrescribe nunca el archivo .xghc original: al guardar
 propone una copia con sufijo.
@@ -49,7 +49,7 @@ LIMITACIONES CONOCIDAS DE ESTA VERSIÓN
 - La exportación .xrho no está disponible.
 - La configuración del programa se guarda en el registro de Windows del usuario.
 
-Para cualquier incidencia, indique la versión (0.0.2) y adjunte autoprueba.txt.
+Para cualquier incidencia, indique la versión (0.0.3) y adjunte autoprueba.txt.
 
 VERSIÓN SENCILLA (novedad de 0.0.2)
 Al arrancar puede elegir entre la versión sencilla (paso a paso) y la clásica.

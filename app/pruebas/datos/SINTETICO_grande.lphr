@@ -2,7 +2,7 @@
  "formato": "horario-lphr",
  "version": 1,
  "generado": "2026-11-01T14:31:12+01:00",
- "aplicacion": "ClaustrApp 0.0.2",
+ "aplicacion": "ClaustrApp 0.0.3",
  "configuracion": {
   "archivo": "SINTETICO_grande.xghc",
   "sha256": "01b404f198c1d7cc01d5a3596f7ac33fe562d0a7e82f73b038740b5d02ba35fe"
